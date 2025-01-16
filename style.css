@@ -1,0 +1,153 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#parentnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 60%;
+}
+
+#firstpic{ 
+ margin-left: 25%;
+
+
+}
+
+#secondpic{
+
+    width: 90%;
+}
+
+#box1{
+margin: 0 25%;
+text-decoration:none ;
+
+}
+
+#box2{
+    margin: 0 25%;
+    text-decoration:none ;
+    
+
+}
+
+.container{
+padding: 0 15%;
+text-align: center;
+
+
+}
+
+
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-gap: 20px;
+}
+
+.article {
+    
+    padding: 10px;
+   
+    
+}
+
+.article h3 {
+    margin-bottom: 10px;
+}
+
+.article p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.article .category {
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.article .date {
+    color: #999;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.color{
+color:blue;
+
+
+
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer .description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer .nav-links {
+    margin-bottom: 15px;
+}
+
+footer .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 14px;
+}
+
+footer .nav-links a:hover {
+    text-decoration: underline;
+}
+
+footer .copyright {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+footer .cta {
+    margin: 20px 0;
+}
+
+footer .cta img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer .cta a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+footer .cta a:hover {
+    background-color: #005bb5;
+}
+
+footer .footer-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
